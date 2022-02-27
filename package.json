@@ -1,0 +1,23 @@
+{
+  "name": "node-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritiksaxena124/Node-Docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritiksaxena124/Node-Docker/issues"
+  },
+  "homepage": "https://github.com/ritiksaxena124/Node-Docker#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
