@@ -5,7 +5,7 @@ const app = express();
 let port = process.env.PORT || 8000;
 
 app.get("/", (req, res) => {
-    res.write("<h1>Hey There!!</h1>")
+    res.write("<h1>Hey There!! Local folder sync with container folder</h1>")
     res.end();
 })
 
