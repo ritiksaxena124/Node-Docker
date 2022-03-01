@@ -20,3 +20,14 @@
 ### why create read-only bi-mounts?
 
 - when we dont want any changes in the container affects our local file folder
+
+### docker-compose 
+- creating a file "docker-compose.yml" and putting all the commands that needs to be executed for creating a container.
+- this reduces the headache of writing long command required for creating a container.
+    - CMD: docker-compose up -d (creates a container in detach mode);
+
+- To stop the container
+    - CMD: docker-compose down
+
+### CMD: docker volume prune
+- deletes all the anonymous/un-used volumes.
