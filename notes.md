@@ -24,7 +24,7 @@
 ### docker-compose 
 - creating a file "docker-compose.yml" and putting all the commands that needs to be executed for creating a container.
 - this reduces the headache of writing long command required for creating a container.
-    - CMD: docker-compose up -d (creates a container in detach mode);
+    - CMD: docker-compose up -d --build(creates a container in detach mode and build a image);
 
 - To stop the container
     - CMD: docker-compose down
