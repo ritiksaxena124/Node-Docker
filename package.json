@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "dev": "nodemon -L index.js"
   },
   "repository": {
@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/ritiksaxena124/Node-Docker#readme",
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }

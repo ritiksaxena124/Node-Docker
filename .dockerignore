@@ -4,3 +4,4 @@ Dockerfile
 .git
 .gitignore
 notes.txt
+docker-compose.*
